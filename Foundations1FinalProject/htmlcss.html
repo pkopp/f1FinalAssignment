@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        
+    </head>
+    <body>
+        <body bgcolor="#b1a1c4">
+      
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/htmlcssassign.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>
+        <script>
+          $(document).ready(function(){
+          $("#hide1").click(function(){
+            $("#answer1").show();
+          });
+        });
+
+          $(document).ready(function(){
+          $("#hide2").click(function(){
+            $("#answer2").show();
+          });
+        });
+
+          $(document).ready(function(){
+          $("#hide3").click(function(){
+            $("#answer3").show();
+          });
+        });
+          </script>
+          
+        <main>
+          <header>Let's look at gender equity in technology companies</header>
+          <p id="question1">1.) According to Payscale.com, what percentage of Amazon's workforce is female?</p>
+          <button id="hide1">click for answer</button>
+          <p id="answer1" style="display: none;">25 percent</p>
+
+          <p id="question2">2.) What percentage of Google's global workforce is female?</p>
+          <button id="hide2">click for answer</button>
+          <p id="answer2" style="display: none;">30 percent</p>
+
+          <p id="question3">3.) What percentage of Facebook's workforce is female?</p>
+          <button id="hide3">click for answer</button>
+          <p id="answer3" style="display: none;">Sadly, I could not find good gender diversity data on Facebook, Twitter, Apple or Microsoft.</p>
+          
+          
+
+        </main>
+
+
+
+    </body>
+</html>
